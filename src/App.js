@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import AddNew from "./components/AddNew";
+import CaveContainer from "./components/CaveContainer";
 
 
 function App() {
