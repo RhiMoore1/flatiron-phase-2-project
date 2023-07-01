@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../components/AddNew.css'
 
 
 function AddNew({ onAddCave }) {
