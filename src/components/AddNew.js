@@ -30,8 +30,13 @@ function AddNew({ onAddCave }) {
             body: JSON.stringify(formData)
         })
         .then(r => r.json())
-        .then(data => onAddCave(data))
-        console.log(formData)
+        .then(data => { onAddCave(data);
+            setTitle("");
+            setLocation("");
+            setRegion("Northern");
+            setDescription("");
+            setImage("");
+    })
     }
 
   return (
@@ -62,7 +67,7 @@ function AddNew({ onAddCave }) {
                 onChange={(e) => setRegion(e.target.value)}
                 >
                     <option value="Northern">Northern</option>
-                    <option value="Souther">Southern</option>
+                    <option value="Southern">Southern</option>
                     <option value="Eastern">Eastern</option>
                     <option value="Western">Western</option>
                     <option value="Midwest">Midwest</option>
