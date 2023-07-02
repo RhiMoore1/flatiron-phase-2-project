@@ -3,11 +3,11 @@ import CaveCard from './CaveCard';
 import caves from '../db.json';
 
 function CaveContainer() {
-
+    // console.log(caves)
     return (
     <div className='caves'>
         <div className='caves-list'>
-            {caves.map((cave) => {
+            {caves.caves.map((cave) => {
                 return (
                     <CaveCard 
                     key={cave.id} 
