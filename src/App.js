@@ -7,9 +7,6 @@ import CaveContainer from "./components/CaveContainer";
 
 
 function App() {
-  const [page, setPage] = useState("/home");
-
-
   const [caves, setCaves] = useState([]);
 
   function addCaves(newCave) {
@@ -27,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar onChangePage={setPage} />
+      <NavBar />
       <Switch>
         <Route exact path="/">
           <Home />

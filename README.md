@@ -4,7 +4,7 @@ https://github.com/RhiMoore1/flatiron-phase-2-project
 https://github.com/RhiMoore1/flatiron-phase-2-project-backend
 
 
-navigate to the https://github.com/RhiMoore1/flatiron-phase-2-project-backend file with the db.json file in it.  Then run json-server db.json --watch in the terminal.
+navigate to the https://github.com/RhiMoore1/flatiron-phase-2-project-backend file to the db.json file.  Then run json-server db.json --watch in the terminal.
 
 navigate to the https://github.com/RhiMoore1/flatiron-phase-2-project in another terminal and open in vscode and run npm install and npm install react-router-dom@5 then run npm start.
 
