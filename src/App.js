@@ -36,7 +36,7 @@ function App() {
           <CaveContainer caves={caves} />
         </Route>
         <Route path="/add">
-          <AddNew />
+          <AddNew onAddCave={addCaves} />
         </Route>
       </Switch>
     </div>
