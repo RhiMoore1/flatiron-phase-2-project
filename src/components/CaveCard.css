@@ -1,0 +1,21 @@
+.loction-region {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .cavecard {
+      background-color: rgb(251, 247, 241);
+      border: 1px solid black;
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 0.5rem;
+      height: 40rem;
+  }
+  
+  .caveCardImage {
+      max-width: 100%;
+      border-radius: 0.25rem;
+  }
+  

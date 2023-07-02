@@ -1,9 +1,10 @@
 import React from 'react';
 import CaveCard from './CaveCard';
 import caves from '../db.json';
+import '../components/CaveCard.css'
 
 function CaveContainer() {
-    // console.log(caves)
+    console.log(caves)
     return (
     <div className='caves'>
         <div className='caves-list'>
