@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb80641d.css",
+    "main.js": "/static/js/main.bda3c489.js",
+    "static/media/caveLogoInBlack.png": "/static/media/caveLogoInBlack.3fc0a0dd9951e0ac0ada.png",
+    "index.html": "/index.html",
+    "main.cb80641d.css.map": "/static/css/main.cb80641d.css.map",
+    "main.bda3c489.js.map": "/static/js/main.bda3c489.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb80641d.css",
+    "static/js/main.bda3c489.js"
+  ]
+}
