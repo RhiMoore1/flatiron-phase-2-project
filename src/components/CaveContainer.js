@@ -1,14 +1,13 @@
 import React from 'react';
 import CaveCard from './CaveCard';
-import caves from '../db.json';
 import '../components/CaveContainer.css'
 
-function CaveContainer() {
-    console.log(caves)
+function CaveContainer({caves}) {
+
     return (
     <div className='caves'>
         <div className='caves-list'>
-            {caves.caves.map((cave) => {
+            {caves.map((cave) => {
                 return (
                     <CaveCard 
                     key={cave.id} 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../components/AddNew.css'
+import './AddNew.css';
 
 
 function AddNew({ onAddCave }) {
@@ -9,9 +9,34 @@ function AddNew({ onAddCave }) {
     const [caveDescription, setCaveDescription] = useState("");
     const [caveImage, setCaveImage] = useState("");
 
+
+
+    function handleSubmit(e) {
+        e.preventDefault()
+
+        const formData = {
+            caveName,
+            caveLocation,
+            caveRegion,
+            caveDescription,
+            caveImage
+        }
+        const apiUrl = "http://localhost:3000/caves"
+        fetch(apiUrl, {
+            method: "POST",
+            headers: {
+               "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(r => r.json())
+        .then(data => onAddCave(data))
+        console.log(formData)
+    }
+
   return (
     <div className='form-container'>
-        <form className='form' >
+        <form className='form' onSubmit={handleSubmit}>
             <h1>Add New Cave</h1>
 
             <label htmlFor="caveName">Cave Name</label>
