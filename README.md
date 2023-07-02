@@ -1,3 +1,22 @@
+# Getting Started with the CaveQuest App
+Download both the flatiron-phase-2-project and flatiron-phase-2-project-backend
+https://github.com/RhiMoore1/flatiron-phase-2-project
+https://github.com/RhiMoore1/flatiron-phase-2-project-backend
+
+
+
+
+
+
+# Using the CaveQuest App
+View different caves located throughout the US.  When opening the app, you see the "Home" page. Click on the "Explore" button in the Navigation bar to view pictures and stats of caves.  Choose to filter the caves by "Region" by using the "Filter by Region" dropdown select.  Caves can also be added by selecting the "Add New" button in the Navigation bar. Fill in the new cave data into the "Form" and "Submit".  The new cave is then added to the database. You can view this new cave by selecting the "Explore" button in the Navigation.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
