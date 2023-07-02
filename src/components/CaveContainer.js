@@ -1,7 +1,7 @@
 import React from 'react';
 import CaveCard from './CaveCard';
 import caves from '../db.json';
-import '../components/CaveCard.css'
+import '../components/CaveContainer.css'
 
 function CaveContainer() {
     console.log(caves)

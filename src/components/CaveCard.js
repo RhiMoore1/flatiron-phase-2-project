@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../components/CaveCard.css'
 
 function CaveCard({ title, image, description, region, location }) {
     
