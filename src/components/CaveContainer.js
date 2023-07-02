@@ -14,8 +14,7 @@ function CaveContainer({caves}) {
         : caves;
 
     return (
-    <div className='caves'>
-        <div className='caves-list'>
+        <div>
             <div className='region-filter'>
                 <label htmlFor='region'>Filter by Region</label>
                 <select id='region' value={selectedRegion} onChange={handleSelectedRegionChange} >
@@ -27,6 +26,8 @@ function CaveContainer({caves}) {
                     <option value='Midwest'>Midwest</option>
                 </select>
             </div>
+        <div className='caves'>
+            <div className='caves-list'>
                 {filteredCaves.map((cave) => {
                     return (
                         <CaveCard 
@@ -39,6 +40,7 @@ function CaveContainer({caves}) {
                         />
                     )
                 })}
+            </div>
         </div>
     </div>
   )

@@ -4,3 +4,28 @@
     grid-template-columns: repeat(3, 1fr); 
     grid-gap: 10px; 
 }
+/* .region {
+    max-width: 100px;
+    max-height: 100px;
+    justify-content: center;
+} */
+/* .region-filter {
+    max-width: 70px;
+    max-height: 70px;
+    justify-content: center;
+} */
+
+/* .region-filter label {
+  margin-right: 5px;
+} */
+
+/* .region-filter button:hover {
+  background-color: #e0e0e0;
+} */
+
+.region-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
