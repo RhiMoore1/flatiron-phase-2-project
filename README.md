@@ -1,17 +1,19 @@
 # Getting Started with the CaveQuest App
-Download both the flatiron-phase-2-project and flatiron-phase-2-project-backend
+Download both the flatiron-phase-2-project and flatiron-phase-2-project-backend from github
 https://github.com/RhiMoore1/flatiron-phase-2-project
 https://github.com/RhiMoore1/flatiron-phase-2-project-backend
 
 
+navigate to the https://github.com/RhiMoore1/flatiron-phase-2-project-backend file with the db.json file in it.  Then run json-server db.json --watch in the terminal.
 
+navigate to the https://github.com/RhiMoore1/flatiron-phase-2-project in another terminal and open in vscode and run npm install and npm install react-router-dom@5 then run npm start.
+
+The CaveQuest App will launch in the browser.
 
 
 
 # Using the CaveQuest App
 View different caves located throughout the US.  When opening the app, you see the "Home" page. Click on the "Explore" button in the Navigation bar to view pictures and stats of caves.  Choose to filter the caves by "Region" by using the "Filter by Region" dropdown select.  Caves can also be added by selecting the "Add New" button in the Navigation bar. Fill in the new cave data into the "Form" and "Submit".  The new cave is then added to the database. You can view this new cave by selecting the "Explore" button in the Navigation.
-
-
 
 
 
