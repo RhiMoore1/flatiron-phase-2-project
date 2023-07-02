@@ -21,7 +21,7 @@ function CaveContainer({caves}) {
                     <option value=''>All Regions</option>
                     <option value='Northern'>Northern</option>
                     <option value='Southern'>Southern</option>
-                    <option value='Eastern'>Easterrn</option>
+                    <option value='Eastern'>Eastern</option>
                     <option value='Western'>Western</option>
                     <option value='Midwest'>Midwest</option>
                 </select>
