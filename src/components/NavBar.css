@@ -37,3 +37,8 @@
     text-decoration: none;
     color: black;
   }
+
+  .link:hover {
+    background-color: rgb(251, 247, 241);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
