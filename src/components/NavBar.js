@@ -9,7 +9,7 @@ function NavBar() {
     <div className='header'>
         <div className='header-logo'>
             <div className="navbar">
-                <img src={myImage} />
+                <NavLink exact to="/" > <img src={myImage} alt='CaveQuest cave logo' /></NavLink>
                 <h1>CaveQuest</h1>
            </div>
         </div>
