@@ -7,7 +7,7 @@ function CaveCard({ title, image, description, region, location }) {
     <div className='toplevel'>
     <div className='cavecard'>
         <h3>{title}</h3>
-        <img className="caveCardImage" src={image}/>
+        <img className="caveCardImage" src={image} alt='cave'/>
         <div className='loction-region'>
           <p>{location}</p>
           <p>{region}</p>
