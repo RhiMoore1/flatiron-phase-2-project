@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(248, 235, 216);
     padding: 2rem;
     border-radius: 0.5rem;
 }
