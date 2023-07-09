@@ -5,7 +5,7 @@ import './AddNew.css';
 function AddNew({ onAddCave }) {
     const [title, setTitle] = useState("");
     const [location, setLocation] = useState("");
-    const [region, setRegion] = useState("Northern");
+    const [region, setRegion] = useState("");
     const [description, setDescription] = useState("");
     const [image, setImage] = useState("");
 
@@ -33,7 +33,7 @@ function AddNew({ onAddCave }) {
         .then(data => { onAddCave(data);
             setTitle("");
             setLocation("");
-            setRegion("Northern");
+            setRegion("");
             setDescription("");
             setImage("");
     })
@@ -65,7 +65,10 @@ function AddNew({ onAddCave }) {
                 id='caveRegion'
                 value={region}
                 onChange={(e) => setRegion(e.target.value)}
-                >
+                >   
+                    <option value="" disabled selected>
+                        Select Region
+                    </option>
                     <option value="Northern">Northern</option>
                     <option value="Southern">Southern</option>
                     <option value="Eastern">Eastern</option>
