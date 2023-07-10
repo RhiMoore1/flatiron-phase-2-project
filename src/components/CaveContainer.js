@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import CaveCard from './CaveCard';
-import '../components/CaveContainer.css'
+import '../components/CaveContainer.css';
+import TrackingButtons from './TrackingButtons';
+import { Route, Switch } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function CaveContainer({caves}) {
     const [selectedRegion, setSelectedRegion] = useState("");
@@ -21,6 +24,10 @@ function CaveContainer({caves}) {
     const searchedCaves = filteredCaves.filter((cave) => 
         cave.title.toLowerCase().includes(searchCave.toLowerCase())
     );
+
+    const showTracking = () => {
+
+    }
 
     return (
         <div>
@@ -47,12 +54,11 @@ function CaveContainer({caves}) {
                 />
                 </div>
                 <div className='wishlist'>
-                    <button className='wishlist-button'>Wishlist ⛏️</button>
-                    <button className='wishlist-button'>Visited ✅</button>
-                    <button className='wishlist-button'>Liked ❤️</button>
-                    {/* <p className='wishlistP'>Wishlist ⛏️</p>
-                    <p className='wishlistP'>Visited ✅</p>
-                    <p className='wishlistP'>Liked ❤️</p> */}
+
+                    <NavLink to="/tracking" className='wishlist-button' onClick={showTracking}>Wishlist ⛏️</NavLink>
+                    <NavLink to="/tracking" className='wishlist-button' onClick={showTracking}>Visited ✅</NavLink>
+                    <NavLink to="/tracking" className='wishlist-button' onClick={showTracking}>Liked ❤️</NavLink>
+  
                 </div>
             </div>
            

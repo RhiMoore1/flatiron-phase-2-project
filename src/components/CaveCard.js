@@ -9,9 +9,11 @@ function CaveCard({ title, image, description, region, location }) {
       <div className='card-heading'>
         <h3>{title}</h3>
         <div className='card-buttons'>
-          <button className='button-grow'>⛏️</button>
-          <button className='button-grow'>✅</button>
-          <button className='button-grow'>❤️</button>
+
+              <button className='button-grow'>⛏️</button>
+              <button className='button-grow'>✅</button>
+              <button className='button-grow'>❤️</button>
+
         </div>
       </div>
         <img className="caveCardImage" src={image} alt='cave'/>

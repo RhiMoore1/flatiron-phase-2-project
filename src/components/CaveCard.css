@@ -38,7 +38,9 @@
     background-color: transparent;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    padding: 0.7rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: larger;
   }
 
   .button-grow:hover {

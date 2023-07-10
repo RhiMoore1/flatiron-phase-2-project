@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import AddNew from "./components/AddNew";
 import CaveContainer from "./components/CaveContainer";
+import TrackingButtons from "./components/TrackingButtons";
 
 // https://phase-2-project-backend-t7ie.onrender.com
 
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route path="/add">
           <AddNew onAddCave={addCaves} />
+        </Route>
+        <Route path="/tracking">
+          <TrackingButtons />
         </Route>
       </Switch>
     </div>
