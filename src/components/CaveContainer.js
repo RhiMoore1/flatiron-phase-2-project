@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CaveCard from './CaveCard';
 import '../components/CaveContainer.css';
-import TrackingButtons from './TrackingButtons';
+import TrackingButtons from './Wishlist';
 import { Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
@@ -53,11 +53,11 @@ function CaveContainer({caves}) {
                     placeholder='Search caves...'
                 />
                 </div>
-                <div className='wishlist'>
+                <div className='tracking'>
 
-                    <NavLink to="/tracking" className='wishlist-button' onClick={showTracking}>Wishlist ⛏️</NavLink>
-                    <NavLink to="/tracking" className='wishlist-button' onClick={showTracking}>Visited ✅</NavLink>
-                    <NavLink to="/tracking" className='wishlist-button' onClick={showTracking}>Liked ❤️</NavLink>
+                    <NavLink to="/wishlist" className='tracking-button' >Wishlist ⛏️</NavLink>
+                    <NavLink to="/visited" className='tracking-button' >Visited ✅</NavLink>
+                    <NavLink to="/liked" className='tracking-button' >Liked ❤️</NavLink>
   
                 </div>
             </div>

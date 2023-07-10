@@ -28,12 +28,12 @@
     padding-right: 0.5rem;
 }
 
-.wishlist {
+.tracking {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.wishlist-button {
+.tracking-button {
     margin: 0px;
     margin-left: 1rem;
     padding: 0.55rem;
@@ -42,6 +42,8 @@
     background-color: rgb(251, 247, 241);
     font-size: medium;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .wishlist-button:hover {
