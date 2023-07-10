@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import AddNew from "./components/AddNew";
 import CaveContainer from "./components/CaveContainer";
 
-// http://localhost:3000/caves
+// https://phase-2-project-backend-t7ie.onrender.com
 
 
 
@@ -19,7 +19,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("https://phase-2-project-backend-t7ie.onrender.com")
+    fetch("http://localhost:3000/caves")
     .then(r => r.json())
     .then(data => setCaves(data))
     .catch(error => console.log("error finding data", error))
