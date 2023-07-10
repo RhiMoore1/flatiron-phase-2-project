@@ -1,16 +1,27 @@
 .caves-list {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr);  */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     grid-gap: 10px; 
 }
 
-.region-filter {
+/* .region-filter {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-}
+} */
 
 .region-filter label {
     margin-right: 1rem;
+}
+
+.search-and-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.search label {
+    padding-right: 0.5rem;
 }

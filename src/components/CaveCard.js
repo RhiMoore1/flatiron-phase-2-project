@@ -12,7 +12,7 @@ function CaveCard({ title, image, description, region, location }) {
           <p>{location}</p>
           <p>{region}</p>
         </div>
-        <p>{description}</p>
+        <p id='descriptionP'>{description}</p>
     </div>
     </div>
   )
