@@ -20,7 +20,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    align-items: center;
 }
 
 .search label {
@@ -32,17 +33,17 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.wishlistP {
+.wishlist-button {
     margin: 0px;
     margin-left: 1rem;
-    padding-left: 0.55rem;
-    padding-right: 0.55rem;
+    padding: 0.55rem;
     border: 1px solid black;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: rgb(251, 247, 241);
+    font-size: medium;
 }
 
-.wishlistP:hover {
+.wishlist-button:hover {
     background-color: rgb(248, 235, 216);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

@@ -47,9 +47,12 @@ function CaveContainer({caves}) {
                 />
                 </div>
                 <div className='wishlist'>
-                    <p className='wishlistP'>Wishlist ⛏️</p>
+                    <button className='wishlist-button'>Wishlist ⛏️</button>
+                    <button className='wishlist-button'>Visited ✅</button>
+                    <button className='wishlist-button'>Liked ❤️</button>
+                    {/* <p className='wishlistP'>Wishlist ⛏️</p>
                     <p className='wishlistP'>Visited ✅</p>
-                    <p className='wishlistP'>Liked ❤️</p>
+                    <p className='wishlistP'>Liked ❤️</p> */}
                 </div>
             </div>
            
