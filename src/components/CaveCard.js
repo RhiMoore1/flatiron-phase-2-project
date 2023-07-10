@@ -1,13 +1,13 @@
 import React from 'react';
 import '../components/CaveCard.css'
 
-function CaveCard({ title, image, description, region, location }) {
+function CaveCard({ cave }) {
     
   return (
     <div className='toplevel'>
     <div className='cavecard'>
       <div className='card-heading'>
-        <h3>{title}</h3>
+        <h3>{cave.title}</h3>
         <div className='card-buttons'>
 
               <button className='button-grow'>⛏️</button>
@@ -16,12 +16,12 @@ function CaveCard({ title, image, description, region, location }) {
 
         </div>
       </div>
-        <img className="caveCardImage" src={image} alt='cave'/>
+        <img className="caveCardImage" src={cave.image} alt='cave'/>
         <div className='loction-region'>
-          <p>{location}</p>
-          <p>{region}</p>
+          <p>{cave.location}</p>
+          <p>{cave.region}</p>
         </div>
-        <p id='descriptionP'>{description}</p>
+        <p id='descriptionP'>{cave.description}</p>
     </div>
     </div>
   )

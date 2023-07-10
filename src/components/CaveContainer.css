@@ -46,7 +46,7 @@
     color: black;
 }
 
-.wishlist-button:hover {
+.tracking-button:hover {
     background-color: rgb(248, 235, 216);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

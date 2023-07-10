@@ -25,10 +25,6 @@ function CaveContainer({caves}) {
         cave.title.toLowerCase().includes(searchCave.toLowerCase())
     );
 
-    const showTracking = () => {
-
-    }
-
     return (
         <div>
             <div className='search-and-filter'>
@@ -68,11 +64,7 @@ function CaveContainer({caves}) {
                     return (
                         <CaveCard 
                         key={cave.id} 
-                        image={cave.image} 
-                        title={cave.title} 
-                        description={cave.description}
-                        region={cave.region}
-                        location={cave.location}                    
+                        cave={cave}                    
                         />
                     )
                 })}
