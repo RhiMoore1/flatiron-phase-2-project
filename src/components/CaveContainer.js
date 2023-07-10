@@ -45,8 +45,12 @@ function CaveContainer({caves}) {
                     onChange={handleSearchCave}
                     placeholder='Search caves...'
                 />
-            </div>
-
+                </div>
+                <div className='wishlist'>
+                    <p className='wishlistP'>Wishlist ⛏️</p>
+                    <p className='wishlistP'>Visited ✅</p>
+                    <p className='wishlistP'>Liked ❤️</p>
+                </div>
             </div>
            
         <div className='caves'>

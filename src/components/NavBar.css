@@ -39,6 +39,7 @@
     margin: 0.5rem;
     text-decoration: none;
     color: black;
+    background-color: rgb(221, 203, 175);
   }
 
   .link:hover {
