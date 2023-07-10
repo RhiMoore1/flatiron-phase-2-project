@@ -1,3 +1,7 @@
+.toplevel {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .loction-region {
     display: flex;
     justify-content: space-between;
