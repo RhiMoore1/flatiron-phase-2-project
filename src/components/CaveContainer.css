@@ -41,6 +41,7 @@
     border-radius: 0.5rem;
     background-color: rgb(251, 247, 241);
     font-size: medium;
+    cursor: pointer;
 }
 
 .wishlist-button:hover {

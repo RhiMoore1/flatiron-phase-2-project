@@ -32,3 +32,25 @@
   #descriptionP {
     font-size: large
   }
+
+  .button-grow {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 0.7rem;
+  }
+
+  .button-grow:hover {
+    transform: scale(2.1);
+  }
+
+  .card-buttons {
+    display: flex;
+  }
+
+  .card-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
