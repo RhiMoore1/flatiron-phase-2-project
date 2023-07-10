@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import CaveCard from './CaveCard';
 import '../components/CaveContainer.css';
-import TrackingButtons from './Wishlist';
-import { Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 function CaveContainer({caves}) {
@@ -21,9 +19,11 @@ function CaveContainer({caves}) {
         ? caves.filter((cave) => cave.region === selectedRegion)
         : caves;
     
-    const searchedCaves = filteredCaves.filter((cave) => 
-        cave.title.toLowerCase().includes(searchCave.toLowerCase())
-    );
+    const searchedCaves = filteredCaves.filter((cave) => {
+        return(
+            cave.title.toLowerCase().includes(searchCave.toLowerCase()) || 
+            cave.location.toLowerCase().includes(searchCave.toLowerCase()))
+    });
 
     return (
         <div>
