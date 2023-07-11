@@ -42,7 +42,7 @@ function App() {
         <Route path="/add">
           <AddNew onAddCave={addCaves} />
         </Route>
-        <Route path="/wishlist">
+        {/* <Route path="/wishlist">
           <Wishlist/>
         </Route>
         <Route path="/visited">
@@ -50,7 +50,7 @@ function App() {
         </Route>
         <Route path="/liked">
           <Liked />
-        </Route>
+        </Route> */}
 
       </Switch>
     </div>
