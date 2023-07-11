@@ -13,11 +13,13 @@ function NavBar() {
         <NavLink exact to="/" > <img src={myImage} alt='CaveQuest cave logo' /></NavLink>
         <h1>CaveQuest</h1>
       </div>
-        <div id='navigation-link'>
+    
+        <div className='navigation-links'>
           <NavLink className='link' exact to="/">Home</NavLink>
           <NavLink className='link' to='/explore'>Explore</NavLink>
           <NavLink className='link' to='/add'>Add New</NavLink>
         </div>
+      
     </div>
   )
 }

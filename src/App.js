@@ -23,7 +23,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("http://localhost:3000/caves")
+    fetch(`${process.env.REACT_APP_API_URL}/caves`)
     .then(r => r.json())
     .then(data => setCaves(data))
     .catch(error => console.log("error finding data", error))
