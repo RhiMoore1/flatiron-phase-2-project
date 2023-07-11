@@ -26,7 +26,7 @@ function CaveContainer({caves}) {
     });
 
     return (
-        <div>
+        <>
             <div className='search-and-filter'>
                 <div className='region-filter'>
                     <label htmlFor='region'>Filter by Region</label>
@@ -70,7 +70,7 @@ function CaveContainer({caves}) {
                 })}
             </div>
         </div>
-    </div>
+    </>
   )
 }
 

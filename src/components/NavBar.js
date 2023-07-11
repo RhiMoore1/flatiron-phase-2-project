@@ -5,6 +5,7 @@ import myImage from '../caveLogoInBlack.png'
 
 
 function NavBar() {
+
   return (
     <div className='header'>
         <div className='header-logo'>
@@ -12,11 +13,13 @@ function NavBar() {
                 <NavLink exact to="/" > <img src={myImage} alt='CaveQuest cave logo' /></NavLink>
                 <h1>CaveQuest</h1>
            </div>
-        </div>
-        <div className='NavLink'>
-            <NavLink className='link' exact to="/">Home</NavLink>
-            <NavLink className='link' to='/explore'>Explore</NavLink>
-            <NavLink className='link' to='/add'>Add New</NavLink>
+        </div >
+        <div >
+          <div >
+              <NavLink className='link' exact to="/">Home</NavLink>
+              <NavLink className='link' to='/explore'>Explore</NavLink>
+              <NavLink className='link' to='/add'>Add New</NavLink>
+          </div>
         </div>
     </div>
   )
