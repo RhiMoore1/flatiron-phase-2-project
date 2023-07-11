@@ -21,7 +21,7 @@ function AddNew({ onAddCave }) {
             description,
             image
         }
-        const apiUrl = "http://localhost:3000/caves"
+        const apiUrl = "https://phase-2-project-e7xc.onrender.com"
         fetch(apiUrl, {
             method: "POST",
             headers: {
